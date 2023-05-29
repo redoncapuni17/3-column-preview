@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+}
+body {
+  display: flex;
+  font-size: 15px;
+  font-family: "Big Shoulders Display";
+  align-items: center;
+  padding: 200px;
+}
+
+.card {
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 650px;
+  height: 350px;
+}
+.container1 {
+  background-color: var(--bright-orange);
+  padding: 30px;
+}
+.container1 img {
+  margin-bottom: 15px;
+}
+.title1 {
+  color: var(--very-light-gray-background-headings-buttons);
+  margin-bottom: 20px;
+}
+.prg1 {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--transparent-white-paragraphs);
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+.btn1 {
+  color: var(--bright-orange);
+  height: 12%;
+  width: 70%;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.container2 {
+  background-color: var(--dark-cyan);
+  padding: 30px;
+}
+.container2 img {
+  margin-bottom: 15px;
+}
+.title2 {
+  color: var(--very-light-gray-background-headings-buttons);
+  margin-bottom: 20px;
+}
+.prg2 {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--transparent-white-paragraphs);
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+.btn2 {
+  color: var(--dark-cyan);
+  height: 12%;
+  width: 70%;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.container3 {
+  background-color: var(--very-dark-cyan);
+  padding: 30px;
+}
+.container3 img {
+  margin-bottom: 15px;
+}
+.title3 {
+  color: var(--very-light-gray-background-headings-buttons);
+  margin-bottom: 20px;
+}
+.prg3 {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--transparent-white-paragraphs);
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+.btn3 {
+  color: var(--very-dark-cyan);
+  height: 12%;
+  width: 70%;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
